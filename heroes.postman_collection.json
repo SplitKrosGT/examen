@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "7c5cd0f1-7a1e-456b-be76-4b62c2bf6b53",
+		"name": "heroes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "heroes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "9440c7e5-8ed7-4846-a657-7cebb280cc7b",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "a94dc846-496a-49c5-8203-bc9f51e1b6d3",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "83eee27a-c76e-45b7-8a0a-6c865d19d9d9",
+			"key": "server",
+			"value": "http://loacalhost/"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
